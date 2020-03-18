@@ -1,0 +1,52 @@
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x8d2d47a6b512f4a32778abc83fe06f4cf7c1d4ef2bb9551fd96f921be6f5a48f
+   > Blocks: 0            Seconds: 8
+   > contract address:    0x59578e141aFf9D28b67B963C6e2b11788c73c866
+   > block number:        6154525
+   > block timestamp:     1584471919
+   > account:             0xa46A26f9A867349F065Bf672D7E736a505cd5446
+   > balance:             0.995895625
+   > gas used:            164175
+   > gas price:           25 gwei
+   > value sent:          0 ETH
+   > total cost:          0.004104375 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.004104375 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'SmeduToken'
+   ----------------------
+   > transaction hash:    0x3bff533c97aaadf442a32eab6b57cc5f758275d5a74c7d1ac0f6857eabaa399c
+   > Blocks: 0            Seconds: 12
+   > contract address:    0xd6707eEcfa904C249ea5f32E22B1f25e9995AE17
+   > block number:        6154527
+   > block timestamp:     1584471949
+   > account:             0xa46A26f9A867349F065Bf672D7E736a505cd5446
+   > balance:             0.974962125
+   > gas used:            794999
+   > gas price:           25 gwei
+   > value sent:          0 ETH
+   > total cost:          0.019874975 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.019874975 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.02397935 ETH

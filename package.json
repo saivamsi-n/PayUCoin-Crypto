@@ -1,0 +1,25 @@
+{
+  "name": "southernmiss-edu-coin",
+  "version": "1.0.0",
+  "description": "Custom crypto coin on top of Ethereum network",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saivamsi-n/SouthernMiss-edu-coin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saivamsi-n/SouthernMiss-edu-coin/issues"
+  },
+  "homepage": "https://github.com/saivamsi-n/SouthernMiss-edu-coin#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.0.33"
+  }
+}
