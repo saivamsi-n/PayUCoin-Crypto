@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/saivamsi-n/SouthernMiss-edu-coin#readme",
   "dependencies": {
-    "@truffle/hdwallet-provider": "^1.0.33"
+    "@truffle/hdwallet-provider": "^1.0.33",
+    "eth-json-rpc-filters": "^4.2.2"
   }
 }

@@ -1,0 +1,113 @@
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'rinkeby-fork'
+> Network id:      3
+> Block gas limit: 8000029 (0x7a121d)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > block number:        9766299
+   > block timestamp:     1614740582
+   > account:             0x412b04325D42C3c2fD8eff1e8F9D41e65aB0E19d
+   > balance:             3.996270625
+   > gas used:            149175 (0x246b7)
+   > gas price:           25 gwei
+   > value sent:          0 ETH
+   > total cost:          0.003729375 ETH
+
+   -------------------------------------
+   > Total cost:         0.003729375 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'AbhiToken'
+   ---------------------
+   > block number:        9766301
+   > block timestamp:     1614740590
+   > account:             0x412b04325D42C3c2fD8eff1e8F9D41e65aB0E19d
+   > balance:             3.977586225
+   > gas used:            720035 (0xafca3)
+   > gas price:           25 gwei
+   > value sent:          0 ETH
+   > total cost:          0.018000875 ETH
+
+   -------------------------------------
+   > Total cost:         0.018000875 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.02173025 ETH
+
+
+
+
+
+Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      3
+> Block gas limit: 8000000 (0x7a1200)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x1cf16a6b8eac95fbf965c3011b88f1504ef8dac76da624558573ba784b281aef
+   > Blocks: 1            Seconds: 60
+   > contract address:    0x1698331AE31f33847f7A040496271f7539B811E9
+   > block number:        9766300
+   > block timestamp:     1614740606
+   > account:             0x412b04325D42C3c2fD8eff1e8F9D41e65aB0E19d
+   > balance:             3.995895625
+   > gas used:            164175 (0x2814f)
+   > gas price:           25 gwei
+   > value sent:          0 ETH
+   > total cost:          0.004104375 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.004104375 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'AbhiToken'
+   ---------------------
+   > transaction hash:    0xccbfcbe3b746a76b019198d9b8b24f830561398b86e3787f9d133053c5872565
+   > Blocks: 1            Seconds: 48
+   > contract address:    0x1E708cacD441a27AE430A6FD774A51D9c01B2E96
+   > block number:        9766303
+   > block timestamp:     1614740682
+   > account:             0x412b04325D42C3c2fD8eff1e8F9D41e65aB0E19d
+   > balance:             3.974961225
+   > gas used:            795035 (0xc219b)
+   > gas price:           25 gwei
+   > value sent:          0 ETH
+   > total cost:          0.019875875 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.019875875 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.02398025 ETH
+

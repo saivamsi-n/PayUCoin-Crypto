@@ -1,5 +1,5 @@
-const Smiss = artifacts.require("../SmeduToken.sol");
+const Abhi = artifacts.require("../AbhiToken.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(Smiss,1000000);
+  deployer.deploy(Abhi,1000000);
 };

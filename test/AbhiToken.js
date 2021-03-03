@@ -1,10 +1,10 @@
-var SmeduToken = artifacts.require("./SmeduToken.sol");
+var AbhiToken = artifacts.require("./AbhiTokenSale.sol");
 
-contract('SmeduToken', function (accounts) {
+contract('AbhiToken', function (accounts) {
     var tokenInstance;
 
     it('initializes the contract with the correct values', function () {
-        return SmeduToken.deployed().then(function (instance) {
+        return AbhiToken.deployed().then(function (instance) {
             tokenInstance = instance;
             return tokenInstance.name();
         }).then(function (name) {
@@ -19,7 +19,7 @@ contract('SmeduToken', function (accounts) {
     })
 
     it('allocates the initial supply upon deployment', function () {
-        return SmeduToken.deployed().then(function (instance) {
+        return AbhiToken.deployed().then(function (instance) {
             tokenInstance = instance;
             return tokenInstance.totalSupply();
         }).then(function (totalSupply) {
@@ -32,7 +32,7 @@ contract('SmeduToken', function (accounts) {
     });
 
     it('transfers token ownership', function () {
-        return SmeduToken.deployed().then(function (instance) {
+        return AbhiToken.deployed().then(function (instance) {
             tokenInstance = instance;
             // Test `require` statement first by transferring something larger than the sender's balance
             return tokenInstance.transfer.call(accounts[1], 99999999999999999999999);
@@ -59,7 +59,7 @@ contract('SmeduToken', function (accounts) {
     });
 
     it('approves tokens for delegated transfer', function () {
-        return SmeduToken.deployed().then(function (instance) {
+        return AbhiToken.deployed().then(function (instance) {
             tokenInstance = instance;
             return tokenInstance.approve.call(accounts[1], 100);
         }).then(function (success) {
@@ -78,7 +78,7 @@ contract('SmeduToken', function (accounts) {
     });
 
     it('handles delegated token transfers', function () {
-        return SmeduToken.deployed().then(function (instance) {
+        return AbhiToken.deployed().then(function (instance) {
             tokenInstance = instance;
             fromAccount = accounts[2];
             toAccount = accounts[3];

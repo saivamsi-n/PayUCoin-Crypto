@@ -1,10 +1,10 @@
-pragma solidity >=0.4.22 <0.7.0;
+pragma solidity >=0.5.16 <0.7.0;
 
 
-contract SmeduToken {
-    string  public name = "SM Edu Token";
-    string  public symbol = "SMEDU";
-    string  public standard = "SM EDU v1.0";
+contract AbhiToken {
+    string  public name = "Abhi Edu Token";
+    string  public symbol = "ABHI";
+    string  public standard = "ABHI EDU v1.0";
     uint256 public totalSupply;
 
      event Transfer(
